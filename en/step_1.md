@@ -2,15 +2,16 @@
 
 If you do not have access to the internet on the computer you are connecting to you Raspberry Pi Pico, or you do not have permissions to install packages with Thonny, you can still use the picozero library.
 
-1. Ensure that your Raspberry Pi Pico is connected to your computer using a microUSB cable.
+You can use another internet connected computer to download the file you need and then store the file on a USB flash memory stick.
 
 1. Go to the `picozero.py` file in the [picozero GitHub repository](https://raw.githubusercontent.com/RaspberryPiFoundation/picozero/master/picozero/picozero.py?token=GHSAT0AAAAAABRLTKWZCT53CGKBFHMJGE54YSC762A) using a web browser.
-
-### Option 1 - Transfer files using Thonny file manager
 
 1. Right click on the picozero page, and choose to **Save page as**.
 
 1. Choose a download location, and keep the file name the same - `picozero.py`
+### Option 1 - Transfer files using Thonny file manager
+
+1. On the computer connect your Raspberry Pi Pico using a microUSB cable.
 
 1. Load Thonny from your application menu, then from the **View** menu, choose to see files.
 
@@ -28,7 +29,7 @@ If you do not have access to the internet on the computer you are connecting to 
 
 ### Option 2 - Copy and paste the file using Thonny
 
-1. Select all the text on the picozero page by pressing **Ctrl + a** on your keyboard, then copy it by pressing **Ctrl + c**.
+1. Select all the text in the `picozero.py` file by pressing **Ctrl + a** on your keyboard, then copy it by pressing **Ctrl + c**.
 
 1. Open Thonny, click in the **untitled** tab and press **Ctrl + v** to paste the contents of `picozero.py` into the file.
 
