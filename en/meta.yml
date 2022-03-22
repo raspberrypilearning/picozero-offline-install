@@ -1,0 +1,9 @@
+title: picozero-offline-install
+hero_image: images/banner.png
+description: picozero-offline-install description
+version: 4
+listed: false
+copyedit: false
+last_tested: "2022-03-22"
+steps:
+  - title: Installing picozero offline
