@@ -6,6 +6,4 @@ listed: false
 copyedit: false
 last_tested: "2022-03-22"
 steps:
-  - title: Introduction
-  - title: Step title
-  - title: What next?
+  - title: Installing picozero offline

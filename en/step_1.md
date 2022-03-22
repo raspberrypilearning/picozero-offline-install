@@ -1,59 +1,42 @@
-## Introduction
+## Installing picozero offline
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+If you do not have access to the internet on the computer you are connecting to you Raspberry Pi Pico, or you do not have permissions to install packages with Thonny, you can still use the picozero library.
 
-### What you will make
+1. Ensure that your Raspberry Pi Pico is connected to your computer using a microUSB cable.
 
---- no-print ---
-Add instructions for interacting with the embedded content here.
+1. Go to the `picozero.py` file in the [picozero GitHub repository](https://raw.githubusercontent.com/RaspberryPiFoundation/picozero/master/picozero/picozero.py?token=GHSAT0AAAAAABRLTKWZCT53CGKBFHMJGE54YSC762A) using a web browser.
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
---- /no-print ---
+### Option 1 - Transfer files using Thonny file manager
 
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
+1. Right click on the picozero page, and choose to **Save page as**.
 
---- collapse ---
----
-title: What you will need
----
-### Hardware
+1. Choose a download location, and keep the file name the same - `picozero.py`
 
-+ A computer or tablet capable of running Scratch 3
+1. Load Thonny from your application menu, then from the **View** menu, choose to see files.
 
-### Software
+![View menu selected and files has been checked](images/view_files.jpg)
 
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
+1. Use the path to navigate to the directory where you saved the `picozero.py` file.
 
-### Downloads
+![file path highlighted in the Files tab in Thonny](imgaes/navigate_downloads.jpg)
 
-+ Download the project [starter file](https://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
+1. Right click on the `picozero.py` and select **Upload to /** from the menu.
 
---- /collapse ---
+![context menu displayed with upload to / selected](images/upload_files.jpg)]
 
---- collapse ---
----
-title: What you will learn
----
+1. You should now see a new copy of the `picozero.py` library on the Raspberry Pi Pico.
 
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
+### Option 2 - Copy and paste the file using Thonny
 
---- /collapse ---
+1. Select all the text on the picozero page by pressing **Ctrl + a** on your keyboard, then copy it by pressing **Ctrl + c**.
 
---- collapse ---
----
-title: Additional information for educators
----
+1. Open Thonny, click in the **<untitled>** tab and press **Ctrl + v** to paste the contents of `picozero.py` into the file.
 
-You can download the completed project [here](https://rpf.io/p/en/projectName-get){:target="_blank"}.
+1. Use **Ctrl + s** to save the file, and when prompted choose to save it to **Raspberry Pi Pico**
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
+![save options show with This computer and Raspberry Pi Pico show](images/save_to.jpg)
 
---- /collapse ---
+1. Name the file `picozero.py` and then click on the **OK** button.
+
+![picozero.py typed into the File name field and the OK and Cancel buttons shown](images/save_file.jpg)
+
