@@ -30,7 +30,7 @@ If you do not have access to the internet on the computer you are connecting to 
 
 1. Select all the text on the picozero page by pressing **Ctrl + a** on your keyboard, then copy it by pressing **Ctrl + c**.
 
-1. Open Thonny, click in the **/<untitled/>** tab and press **Ctrl + v** to paste the contents of `picozero.py` into the file.
+1. Open Thonny, click in the **untitled** tab and press **Ctrl + v** to paste the contents of `picozero.py` into the file.
 
 1. Use **Ctrl + s** to save the file, and when prompted choose to save it to **Raspberry Pi Pico**
 
