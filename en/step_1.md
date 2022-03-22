@@ -18,7 +18,7 @@ If you do not have access to the internet on the computer you are connecting to 
 
 1. Use the path to navigate to the directory where you saved the `picozero.py` file.
 
-![file path highlighted in the Files tab in Thonny](imgaes/navigate_downloads.jpg)
+![file path highlighted in the Files tab in Thonny](images/navigate_downloads.jpg)
 
 1. Right click on the `picozero.py` and select **Upload to /** from the menu.
 
@@ -30,7 +30,7 @@ If you do not have access to the internet on the computer you are connecting to 
 
 1. Select all the text on the picozero page by pressing **Ctrl + a** on your keyboard, then copy it by pressing **Ctrl + c**.
 
-1. Open Thonny, click in the **<untitled>** tab and press **Ctrl + v** to paste the contents of `picozero.py` into the file.
+1. Open Thonny, click in the **/<untitled/>** tab and press **Ctrl + v** to paste the contents of `picozero.py` into the file.
 
 1. Use **Ctrl + s** to save the file, and when prompted choose to save it to **Raspberry Pi Pico**
 
