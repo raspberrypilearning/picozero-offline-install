@@ -1,6 +1,6 @@
-title: picozero-offline-install
+title: Installing picozero offline
 hero_image: images/banner.png
-description: picozero-offline-install description
+description: Installing picozero if you can't install through the Thonny package manager.
 version: 4
 listed: false
 copyedit: false
