@@ -1,11 +1,11 @@
 ---
-title: Installing picozero offline
+title: تثبيت وحدة picozero من غير الاتصال بالأنترنت
 hero_image: images/banner.png
-description: Installing picozero if you can't install through the Thonny package manager.
+description: تثبيت picozero إذا لم تتمكن من التثبيت بواسطة مدير حزم "Thonny".
 version: 4
 listed: false
 copyedit: false
 last_tested: "2022-03-22"
 steps:
   - 
-    title: Installing picozero offline
+    title: تثبيت وحدة picozero من غير الاتصال بالأنترنت
