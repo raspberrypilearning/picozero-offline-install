@@ -1,43 +1,43 @@
-## Installing picozero offline
+## تثبيت picozero من غير الاتصال بالأنترنت
 
-If you do not have access to the internet on the computer you are connecting to you Raspberry Pi Pico, or you do not have permissions to install packages with Thonny, you can still use the picozero library.
+إذا لم يكن لديك وصول إلى الإنترنت على الحاسوب الذي تتصل به Raspberry Pi Pico ، أو لم يكن لديك أذونات لتثبيت الحزم مع Thonny، فلا يزال بإمكانك استخدام مكتبة picozero.
 
-You can use another internet connected computer to download the file you need and then store the file on a USB flash memory stick.
+بإمكانك استخدام حاسوبا اخر متصل بالأنترنت لتحميل الملف الذي تحتاجه و ثم خزن الملف في ذاكرة USB.
 
-1. Go to the `picozero.py` file in the [picozero GitHub repository](https://raw.githubusercontent.com/RaspberryPiFoundation/picozero/master/picozero/picozero.py?token=GHSAT0AAAAAABRLTKWZCT53CGKBFHMJGE54YSC762A) using a web browser.
+1. انتقل إلى ملف `picozero.py` في مستودع GitHub [picozero](https://raw.githubusercontent.com/RaspberryPiFoundation/picozero/master/picozero/picozero.py?token=GHSAT0AAAAAABRLTKWZCT53CGKBFHMJGE54YSC762A) باستخدام مستعرض ويب.
 
-1. Right click on the picozero page, and choose to **Save page as**.
+1. انقر بزر الفأرة الأيمن على صفحة picozero ، واختر **Save page as**.
 
-1. Choose a download location, and keep the file name the same - `picozero.py`
-### Option 1 - Transfer files using Thonny file manager
+1. اختر موقع التنزيل ، وأترك إسم الملف كما هو - `picozero.py`
+### الخيار 1 - نقل الملفات باستخدام مدير ملفات Thonny
 
-1. On the computer connect your Raspberry Pi Pico using a microUSB cable.
+1. على الحاسوب قم بتوصيل Raspberry Pi Pico الخاصة بك بأستخدام كابل microUSB.
 
-1. Load Thonny from your application menu, then from the **View** menu, choose to see files.
+1. قم بتحميل Thonny من قائمة التطبيق الخاصة بك ، ثم من القائمة **View** ، اختر رؤية الملفات.
 
-![View menu selected and files has been checked](images/view_files.jpg)
+![تم تحديد قائمة العرض وتم فحص الملفات](images/view_files.jpg)
 
-1. Use the path to navigate to the directory where you saved the `picozero.py` file.
+1. استخدم المسار للانتقال إلى المجلد حيث قمت بحفظ ملف `picozero.py`.
 
-![file path highlighted in the Files tab in Thonny](images/navigate_downloads.jpg)
+![تم تمييز مسار الملف في علامة تبويب الملفات في Thonny](images/navigate_downloads.jpg)
 
-1. Right click on the `picozero.py` and select **Upload to /** from the menu.
+1. انقر بزر الفأرة الأيمن على `picozero.py` وحدد **Upload to /** من خلال القائمة.
 
-![context menu displayed with upload to / selected](images/upload_files.jpg)]
+![يتم عرض قائمة السياق مع التحميل إلى / المحدد](images/upload_files.jpg)]
 
-1. You should now see a new copy of the `picozero.py` library on the Raspberry Pi Pico.
+1. يجب أن ترى الآن نسخة جديدة من مكتبة `picozero.py` على Raspberry Pi Pico.
 
-### Option 2 - Copy and paste the file using Thonny
+### الخيار 2 - نسخ الملف ولصقه باستخدام Thonny
 
-1. Select all the text in the `picozero.py` file by pressing **Ctrl + a** on your keyboard, then copy it by pressing **Ctrl + c**.
+1. حدد كل النص في ملف `picozero.py` بالضغط على **Ctrl + a** على لوحة المفاتيح ، ثم انسخه بالضغط على **Ctrl + c**.
 
-1. Open Thonny, click in the **untitled** tab and press **Ctrl + v** to paste the contents of `picozero.py` into the file.
+1. افتح Thonny ، وانقر فوق علامة التبويب **untitled** واضغط **Ctrl + v** للصق محتويات `picozero.py` في الملف.
 
-1. Use **Ctrl + s** to save the file, and when prompted choose to save it to **Raspberry Pi Pico**
+1. استخدم **Ctrl + s** لحفظ الملف ، وعندما يُطلب منك احفظه في **Raspberry Pi Pico**
 
-![save options show with This computer and Raspberry Pi Pico show](images/save_to.jpg)
+![تظهر خيارات الحفظ مع عرض هذا الكمبيوتر و Raspberry Pi Pico](images/save_to.jpg)
 
-1. Name the file `picozero.py` and then click on the **OK** button.
+1. قم بتسمية الملف `picozero.py` ثم انقر فوق الزر **OK**.
 
-![picozero.py typed into the File name field and the OK and Cancel buttons shown](images/save_file.jpg)
+![تمت كتابة picozero.py في حقل إسم الملف و ظهر زرا موافق و إلغاء](images/save_file.jpg)
 
