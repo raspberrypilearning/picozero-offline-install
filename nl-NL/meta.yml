@@ -1,0 +1,10 @@
+---
+title: Picozero offline installeren
+hero_image: images/banner.png
+description: Het installeren van picozero als je niet kunt installeren via de Thonny package manager.
+version: 4
+listed: false
+copyedit: false
+last_tested: "2022-03-22"
+steps:
+  - title: Picozero offline installeren
