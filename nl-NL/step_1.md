@@ -1,43 +1,43 @@
-## Installing picozero offline
+## Picozero offline installeren
 
-If you do not have access to the internet on the computer you are connecting to you Raspberry Pi Pico, or you do not have permissions to install packages with Thonny, you can still use the picozero library.
+Als je geen toegang hebt tot het internet op de computer die je met je Raspberry Pi Pico verbindt, of als je geen rechten hebt om pakketten met Thonny te installeren, kun je nog steeds de picozero-bibliotheek gebruiken.
 
-You can use another internet connected computer to download the file you need and then store the file on a USB flash memory stick.
+Je kunt een andere computer met internetverbinding gebruiken om het bestand dat je nodig hebt te downloaden en het bestand vervolgens op een USB-stick op te slaan.
 
-1. Go to the `picozero.py` file in the [picozero GitHub repository](https://raw.githubusercontent.com/RaspberryPiFoundation/picozero/master/picozero/picozero.py?token=GHSAT0AAAAAABRLTKWZCT53CGKBFHMJGE54YSC762A) using a web browser.
+1. Ga met een webbrowser naar het bestand `picozero.py` in de [picozero GitHub-repository](https://raw.githubusercontent.com/RaspberryPiFoundation/picozero/master/picozero/picozero.py?token=GHSAT0AAAAAABRLTKWZCT53CGKBFHMJGE54YSC762A).
 
-1. Right click on the picozero page, and choose to **Save page as**.
+1. Klik met de rechtermuisknop op de picozero-pagina en kies **Opslaan als**.
 
-1. Choose a download location, and keep the file name the same - `picozero.py`
-### Option 1 - Transfer files using Thonny file manager
+1. Kies een downloadlocatie en houd de bestandsnaam hetzelfde - `picozero.py`
+### Optie 1 - bestanden overbrengen met Thonny File Manager
 
-1. On the computer connect your Raspberry Pi Pico using a microUSB cable.
+1. Sluit de Raspberry Pi Pico op de computer aan met behulp van een micro-USB-kabel.
 
-1. Load Thonny from your application menu, then from the **View** menu, choose to see files.
+1. Laad Thonny vanuit het toepassingenmenu en kies vervolgens uit het **View** menu om bestanden te bekijken.
 
-![View menu selected and files has been checked](images/view_files.jpg)
+![Het menu View is geselecteerd en files is aangevinkt](images/view_files.jpg)
 
-1. Use the path to navigate to the directory where you saved the `picozero.py` file.
+1. Gebruik het pad om te navigeren naar de map waar je het `picozero.py` bestand hebt opgeslagen.
 
-![file path highlighted in the Files tab in Thonny](images/navigate_downloads.jpg)
+![Bestandspad gemarkeerd op het tabblad Files in Thonny](images/navigate_downloads.jpg)
 
-1. Right click on the `picozero.py` and select **Upload to /** from the menu.
+1. Klik met de rechtermuisknop op de `picozero.py` en selecteer **Upload to /** in het menu.
 
-![context menu displayed with upload to / selected](images/upload_files.jpg)]
+![contextmenu weergegeven met upload to / geselecteerd](images/upload_files.jpg)]
 
-1. You should now see a new copy of the `picozero.py` library on the Raspberry Pi Pico.
+1. Je zou nu een nieuwe versie van de `picozero.py` bibliotheek moeten zien op de Raspberry Pi Pico.
 
-### Option 2 - Copy and paste the file using Thonny
+### Optie 2 - Kopieer en plak het bestand met Thonny
 
-1. Select all the text in the `picozero.py` file by pressing **Ctrl + a** on your keyboard, then copy it by pressing **Ctrl + c**.
+1. Selecteer alle tekst in het bestand `picozero.py` door op **Ctrl + a** op het toetsenbord te drukken en kopieer deze vervolgens door op **Ctrl + c** te drukken.
 
-1. Open Thonny, click in the **untitled** tab and press **Ctrl + v** to paste the contents of `picozero.py` into the file.
+1. Open Thonny, klik op het **untitled** tabblad en druk op **Ctrl + v** om de inhoud van `picozero.py` in het bestand te plakken.
 
-1. Use **Ctrl + s** to save the file, and when prompted choose to save it to **Raspberry Pi Pico**
+1. Gebruik **Ctrl + s** om het bestand op te slaan en kies wanneer daarom wordt gevraagd om het op te slaan op **Raspberry Pi Pico**
 
-![save options show with This computer and Raspberry Pi Pico show](images/save_to.jpg)
+![de opties voor opslaan worden weergegeven met deze computer en de Raspberry Pi Pico](images/save_to.jpg)
 
-1. Name the file `picozero.py` and then click on the **OK** button.
+1. Geef het bestand de naam `picozero.py` en klik vervolgens op de knop **OK**.
 
-![picozero.py typed into the File name field and the OK and Cancel buttons shown](images/save_file.jpg)
+![picozero.py getypt in het veld Filename en de knoppen OK en Cancel worden weergegeven](images/save_file.jpg)
 
