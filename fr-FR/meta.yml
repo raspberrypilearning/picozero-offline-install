@@ -1,0 +1,10 @@
+---
+title: Installation de picozero hors ligne
+hero_image: images/banner.png
+description: Installation de picozero si tu ne peux pas l'installer par le biais du gestionnaire de paquets Thonny.
+version: 4
+listed: false
+copyedit: false
+last_tested: "2022-03-22"
+steps:
+  - title: Installation de picozero hors ligne
