@@ -1,6 +1,6 @@
 ## Installing picozero offline
 
-If you do not have access to the internet on the computer you are connecting to you Raspberry Pi Pico, or you do not have permissions to install packages with Thonny, you can still use the picozero library.
+If you do not have access to the internet on the computer you are connecting to your Raspberry Pi Pico, or you do not have permissions to install packages with Thonny, you can still use the picozero library.
 
 You can use another internet connected computer to download the file you need and then store the file on a USB flash memory stick.
 
@@ -23,7 +23,7 @@ You can use another internet connected computer to download the file you need an
 
 1. Right click on the `picozero.py` and select **Upload to /** from the menu.
 
-![context menu displayed with upload to / selected](images/upload_files.jpg)]
+![context menu displayed with upload to / selected](images/upload_files.jpg)
 
 1. You should now see a new copy of the `picozero.py` library on the Raspberry Pi Pico.
 
