@@ -9,6 +9,7 @@ Je kunt een andere computer met internetverbinding gebruiken om het bestand dat 
 1. Klik met de rechtermuisknop op de picozero-pagina en kies **Opslaan als**.
 
 1. Kies een downloadlocatie en houd de bestandsnaam hetzelfde - `picozero.py`
+
 ### Optie 1 - bestanden overbrengen met Thonny File Manager
 
 1. Sluit de Raspberry Pi Pico op de computer aan met behulp van een micro-USB-kabel.
@@ -23,7 +24,7 @@ Je kunt een andere computer met internetverbinding gebruiken om het bestand dat 
 
 1. Klik met de rechtermuisknop op de `picozero.py` en selecteer **Upload to /** in het menu.
 
-![contextmenu weergegeven met upload to / geselecteerd](images/upload_files.jpg)]
+![contextmenu weergegeven met upload to / geselecteerd](images/upload_files.jpg)
 
 1. Je zou nu een nieuwe versie van de `picozero.py` bibliotheek moeten zien op de Raspberry Pi Pico.
 
