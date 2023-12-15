@@ -1,4 +1,4 @@
-## Installing picozero offline
+## Picozero offline installeren
 
 Als je geen toegang hebt tot het internet op de computer die je met je Raspberry Pi Pico verbindt, of als je geen rechten hebt om pakketten met Thonny te installeren, kun je nog steeds de picozero-bibliotheek gebruiken.
 
