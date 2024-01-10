@@ -9,6 +9,7 @@ Tu peux utiliser un autre ordinateur connecté à internet pour télécharger le
 2. Fais un clic droit sur la page picozero, et choisis **Enregistrer la page sous**.
 
 3. Choisis un emplacement pour le téléchargement, et garde le même nom de fichier - `picozero.py`
+
 ### Option 1 - Transférer les fichiers en utilisant le gestionnaire de fichiers Thonny
 
 1. Sur l'ordinateur, connecte ton Raspberry Pi Pico au moyen d'un câble micro USB.
@@ -23,7 +24,7 @@ Tu peux utiliser un autre ordinateur connecté à internet pour télécharger le
 
 4. Fais un clic droit sur `picozero.py` et sélectionne **Télécharger vers /** depuis le menu.
 
-    ![menu contextuel affiché avec Télécharger vers / sélectionné](images/upload_files.jpg)]
+    ![menu contextuel affiché avec Télécharger vers / sélectionné](images/upload_files.jpg)
 
 5. Tu dois à présent voir une nouvelle copie de la bibliothèque `picozero.py` sur le Raspberry Pi Pico.
 
