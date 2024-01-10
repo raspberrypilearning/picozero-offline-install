@@ -20,11 +20,11 @@ Je kunt een andere computer met internetverbinding gebruiken om het bestand dat 
 
 3. Gebruik het pad om te navigeren naar de map waar je het `picozero.py` bestand hebt opgeslagen.
 
-![Bestandspad gemarkeerd op het tabblad Files in Thonny](images/navigate_downloads.jpg)
+    ![Bestandspad gemarkeerd op het tabblad Files in Thonny](images/navigate_downloads.jpg)
 
 4. Klik met de rechtermuisknop op de `picozero.py` en selecteer **Upload to /** in het menu.
 
-![contextmenu weergegeven met upload to / geselecteerd](images/upload_files.jpg)
+    ![contextmenu weergegeven met upload to / geselecteerd](images/upload_files.jpg)
 
 5. Je zou nu een nieuwe versie van de `picozero.py` bibliotheek moeten zien op de Raspberry Pi Pico.
 
@@ -36,8 +36,8 @@ Je kunt een andere computer met internetverbinding gebruiken om het bestand dat 
 
 3. Gebruik **Ctrl + s** om het bestand op te slaan en kies wanneer daarom wordt gevraagd om het op te slaan op **Raspberry Pi Pico**
 
-![de opties voor opslaan worden weergegeven met deze computer en de Raspberry Pi Pico](images/save_to.jpg)
+    ![de opties voor opslaan worden weergegeven met deze computer en de Raspberry Pi Pico](images/save_to.jpg)
 
 4. Geef het bestand de naam `picozero.py` en klik vervolgens op de knop **OK**.
 
-![picozero.py getypt in het veld Filename en de knoppen OK en Cancel worden weergegeven](images/save_file.jpg)
+    ![picozero.py getypt in het veld Filename en de knoppen OK en Cancel worden weergegeven](images/save_file.jpg)
