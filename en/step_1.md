@@ -16,15 +16,15 @@ You can use another internet connected computer to download the file you need an
 
 2. Load Thonny from your application menu, then from the **View** menu, choose to see files.
 
-![View menu selected and files has been checked](images/view_files.jpg)   
+    ![View menu selected and files has been checked](images/view_files.jpg)   
 
 3. Use the path to navigate to the directory where you saved the `picozero.py` file.
 
-![file path highlighted in the Files tab in Thonny](images/navigate_downloads.jpg)
+    ![file path highlighted in the Files tab in Thonny](images/navigate_downloads.jpg)
 
 4. Right click on the `picozero.py` and select **Upload to /** from the menu.
 
-![context menu displayed with upload to / selected](images/upload_files.jpg)]
+    ![context menu displayed with upload to / selected](images/upload_files.jpg)
 
 5. You should now see a new copy of the `picozero.py` library on the Raspberry Pi Pico.
 
@@ -36,9 +36,9 @@ You can use another internet connected computer to download the file you need an
 
 3. Use **Ctrl + s** to save the file, and when prompted choose to save it to **Raspberry Pi Pico**
 
-![save options show with This computer and Raspberry Pi Pico show](images/save_to.jpg)
+    ![save options show with This computer and Raspberry Pi Pico show](images/save_to.jpg)
 
 4. Name the file `picozero.py` and then click on the **OK** button.
 
-![picozero.py typed into the File name field and the OK and Cancel buttons shown](images/save_file.jpg)
+    ![picozero.py typed into the File name field and the OK and Cancel buttons shown](images/save_file.jpg)
 
