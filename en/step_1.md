@@ -23,7 +23,7 @@ You can use another internet connected computer to download the file you need an
 
 1. Right click on the `picozero.py` and select **Upload to /** from the menu.
 
-![context menu displayed with upload to / selected](images/upload_files.jpg)]
+![context menu displayed with upload to / selected](images/upload_files.jpg)
 
 1. You should now see a new copy of the `picozero.py` library on the Raspberry Pi Pico.
 
