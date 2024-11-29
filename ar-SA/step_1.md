@@ -6,38 +6,39 @@
 
 1. انتقل إلى ملف `picozero.py` في مستودع GitHub [picozero](https://raw.githubusercontent.com/RaspberryPiFoundation/picozero/master/picozero/picozero.py?token=GHSAT0AAAAAABRLTKWZCT53CGKBFHMJGE54YSC762A) باستخدام مستعرض ويب.
 
-1. انقر بزر الفأرة الأيمن على صفحة picozero ، واختر **Save page as**.
+2. انقر بزر الفأرة الأيمن على صفحة picozero ، واختر **Save page as**.
 
-1. اختر موقع التنزيل ، وأترك إسم الملف كما هو - `picozero.py`
+3. اختر موقع التنزيل ، وأترك إسم الملف كما هو - `picozero.py`
+
 ### الخيار 1 - نقل الملفات باستخدام مدير ملفات Thonny
 
 1. على الحاسوب قم بتوصيل Raspberry Pi Pico الخاصة بك بأستخدام كابل microUSB.
 
-1. قم بتحميل Thonny من قائمة التطبيق الخاصة بك ، ثم من القائمة **View** ، اختر رؤية الملفات.
+2. قم بتحميل Thonny من قائمة التطبيق الخاصة بك ، ثم من القائمة **View** ، اختر رؤية الملفات.
 
-![تم تحديد قائمة العرض وتم فحص الملفات](images/view_files.jpg)
+    ![View menu selected and files has been checked](images/view_files.jpg)
 
-1. استخدم المسار للانتقال إلى المجلد حيث قمت بحفظ ملف `picozero.py`.
+3. Use the path to navigate to the directory where you saved the `picozero.py` file.
 
-![تم تمييز مسار الملف في علامة تبويب الملفات في Thonny](images/navigate_downloads.jpg)
+    ![file path highlighted in the Files tab in Thonny](images/navigate_downloads.jpg)
 
-1. انقر بزر الفأرة الأيمن على `picozero.py` وحدد **Upload to /** من خلال القائمة.
+4. Right click on the `picozero.py` and select **Upload to /** from the menu.
 
-![يتم عرض قائمة السياق مع التحميل إلى / المحدد](images/upload_files.jpg)]
+    ![context menu displayed with upload to / selected](images/upload_files.jpg)
 
-1. يجب أن ترى الآن نسخة جديدة من مكتبة `picozero.py` على Raspberry Pi Pico.
+5. يجب أن ترى الآن نسخة جديدة من مكتبة `picozero.py` على Raspberry Pi Pico.
 
 ### الخيار 2 - نسخ الملف ولصقه باستخدام Thonny
 
 1. حدد كل النص في ملف `picozero.py` بالضغط على **Ctrl + a** على لوحة المفاتيح ، ثم انسخه بالضغط على **Ctrl + c**.
 
-1. افتح Thonny ، وانقر فوق علامة التبويب **untitled** واضغط **Ctrl + v** للصق محتويات `picozero.py` في الملف.
+2. افتح Thonny ، وانقر فوق علامة التبويب **untitled** واضغط **Ctrl + v** للصق محتويات `picozero.py` في الملف.
 
-1. استخدم **Ctrl + s** لحفظ الملف ، وعندما يُطلب منك احفظه في **Raspberry Pi Pico**
+3. استخدم **Ctrl + s** لحفظ الملف ، وعندما يُطلب منك احفظه في **Raspberry Pi Pico**
 
-![تظهر خيارات الحفظ مع عرض هذا الكمبيوتر و Raspberry Pi Pico](images/save_to.jpg)
+    ![تظهر خيارات الحفظ مع عرض هذا الكمبيوتر و Raspberry Pi Pico](images/save_to.jpg)
 
-1. قم بتسمية الملف `picozero.py` ثم انقر فوق الزر **OK**.
+4. قم بتسمية الملف `picozero.py` ثم انقر فوق الزر **OK**.
 
-![تمت كتابة picozero.py في حقل إسم الملف و ظهر زرا موافق و إلغاء](images/save_file.jpg)
+    ![تمت كتابة picozero.py في حقل إسم الملف و ظهر زرا موافق و إلغاء](images/save_file.jpg)
 
