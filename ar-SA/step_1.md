@@ -16,15 +16,15 @@
 
 2. قم بتحميل Thonny من قائمة التطبيق الخاصة بك ، ثم من القائمة **View** ، اختر رؤية الملفات.
 
-    ![View menu selected and files has been checked](images/view_files.jpg)
+    ![تم تحديد قائمة العرض وتم فحص الملفات](images/view_files.jpg)
 
-3. Use the path to navigate to the directory where you saved the `picozero.py` file.
+3. استخدم المسار للانتقال إلى المجلد حيث قمت بحفظ ملف `picozero.py`.
 
-    ![file path highlighted in the Files tab in Thonny](images/navigate_downloads.jpg)
+    ![تم تمييز مسار الملف في علامة تبويب الملفات في Thonny](images/navigate_downloads.jpg)
 
-4. Right click on the `picozero.py` and select **Upload to /** from the menu.
+4. انقر بزر الفأرة الأيمن على `picozero.py` وحدد **Upload to /** من خلال القائمة.
 
-    ![context menu displayed with upload to / selected](images/upload_files.jpg)
+    ![يتم عرض قائمة السياق مع التحميل إلى / المحدد](images/upload_files.jpg)
 
 5. يجب أن ترى الآن نسخة جديدة من مكتبة `picozero.py` على Raspberry Pi Pico.
 
