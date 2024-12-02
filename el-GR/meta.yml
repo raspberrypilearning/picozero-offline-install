@@ -1,11 +1,11 @@
 ---
-title: Installing picozero offline
+title: Εγκατάσταση της βιβλιοθήκης picozero χωρίς σύνδεση στο internet
 hero_image: images/banner.png
-description: Installing picozero if you can't install through the Thonny package manager.
+description: Εγκατάσταση της βιβλιοθήκης picozero αν δε γίνεται μέσω του διαχειριστή πακέτων (package manager) του Thonny.
 version: 4
 listed: false
 copyedit: false
 last_tested: "2022-03-22"
 steps:
   - 
-    title: Installing picozero offline
+    title: Εγκατάσταση της βιβλιοθήκης picozero χωρίς σύνδεση στο internet
