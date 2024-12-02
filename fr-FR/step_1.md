@@ -16,15 +16,15 @@ Tu peux utiliser un autre ordinateur connecté à internet pour télécharger le
 
 2. Ouvre Thonny depuis le menu d'application, puis dans le menu **Affichage**, choisis d'afficher les fichiers.
 
-    ![View menu selected and files has been checked](images/view_files.jpg)
+    ![Le menu Affichage est sélectionné et les fichiers ont été cochés](images/view_files.jpg)
 
-3. Use the path to navigate to the directory where you saved the `picozero.py` file.
+3. Utilise le chemin d'accès pour naviguer jusqu'au répertoire où tu avais enregistré le fichier `picozero.py`.
 
-    ![file path highlighted in the Files tab in Thonny](images/navigate_downloads.jpg)
+    ![chemin d'accès du fichier mis en surbrillance dans l'onglet Fichiers de Thonny](images/navigate_downloads.jpg)
 
-4. Right click on the `picozero.py` and select **Upload to /** from the menu.
+4. Fais un clic droit sur `picozero.py` et sélectionne **Télécharger vers /** depuis le menu.
 
-    ![context menu displayed with upload to / selected](images/upload_files.jpg)
+    ![menu contextuel affiché avec Télécharger vers / sélectionné](images/upload_files.jpg)
 
 5. Tu dois à présent voir une nouvelle copie de la bibliothèque `picozero.py` sur le Raspberry Pi Pico.
 
