@@ -1,20 +1,20 @@
-## Installing picozero offline
+## Εγκατάσταση της βιβλιοθήκης picozero χωρίς σύνδεση στο internet
 
-If you do not have access to the internet on the computer you are connecting to you Raspberry Pi Pico, or you do not have permissions to install packages with Thonny, you can still use the picozero library.
+Αν στον Υπολογιστή που έχεις συνδέσει το Raspberry Pi Pico δεν έχεις internet ή δεν έχεις δικαίωμα να εγκαταστήσεις βιβλιοθήκες μέσω του Thonny, υπάρχει ακόμα τρόπος να χρησιμοποιήσεις τη βιβλιοθήκη picozero.
 
-You can use another internet connected computer to download the file you need and then store the file on a USB flash memory stick.
+Μπορείς να κατεβάσεις το αρχείο από έναν άλλο Υπολογιστή, που έχει internet, και στη συνέχεια να το αποθηκεύσεις σε ένα USB stick.
 
-1. Go to the `picozero.py` file in the [picozero GitHub repository](https://raw.githubusercontent.com/RaspberryPiFoundation/picozero/master/picozero/picozero.py?token=GHSAT0AAAAAABRLTKWZCT53CGKBFHMJGE54YSC762A) using a web browser.
+1. Βρες το αρχείο `picozero.py` στο αποθετήριο της βιβλιοθήκης [picozero στο Github](https://raw.githubusercontent.com/RaspberryPiFoundation/picozero/master/picozero/picozero.py?token=GHSAT0AAAAAABRLTKWZCT53CGKBFHMJGE54YSC762A) μέσω ενός broswer.
 
-2. Right click on the picozero page, and choose to **Save page as**.
+2. Κάνε δεξί κλικ στη σελίδα και διάλεξε **Αποθήκευση σελίδας ως (Save page as)**.
 
-3. Choose a download location, and keep the file name the same - `picozero.py`
+3. Διάλεξε ένα φάκελο αποθήκευσης και αποθήκευσε το αρχείο ως `picozero.py`
 
-### Option 1 - Transfer files using Thonny file manager
+### Μεταφορά αρχείων μέσω του διαχειριστή αρχείων του Thonny
 
-1. On the computer connect your Raspberry Pi Pico using a microUSB cable.
+1. Σύνδεσε το Raspberry Pi Pico στον Υπολογιστή σου με ένα καλώδιο microUSB.
 
-2. Load Thonny from your application menu, then from the **View** menu, choose to see files.
+2. Άνοιξε το Thonny και στη συνέχεια από το menu **View** διάλεξε files.
 
     ![View menu selected and files has been checked](images/view_files.jpg)
 
@@ -26,19 +26,19 @@ You can use another internet connected computer to download the file you need an
 
     ![context menu displayed with upload to / selected](images/upload_files.jpg)
 
-5. You should now see a new copy of the `picozero.py` library on the Raspberry Pi Pico.
+5. Θα πρέπει πλέον να φαίνεται ένα νέο αρχείο της βιβλιοθήκης `picozero.py` στο Raspberry Pi Pico.
 
-### Option 2 - Copy and paste the file using Thonny
+### Αντιγραφή και Επικόλληση του αρχείου μέσω του Thonny
 
-1. Select all the text in the `picozero.py` file by pressing **Ctrl + a** on your keyboard, then copy it by pressing **Ctrl + c**.
+1. Επιλέξτε όλο το περιεχόμενο της σελίδας `picozero.py`, πατώντας **Ctrl + a** από το πληκτρολόγιο, και στη συνέχεια πατήστε **Ctrl + c**.
 
-2. Open Thonny, click in the **untitled** tab and press **Ctrl + v** to paste the contents of `picozero.py` into the file.
+2. Αφού ανοίξεις το Thonny, κάνε κλικ στην καρτέλα **untitled** και πάτα **Ctrl + v** για να κάνεις επικόλληση το περιεχόμενο του `picozero.py` στο νέο αρχείο.
 
-3. Use **Ctrl + s** to save the file, and when prompted choose to save it to **Raspberry Pi Pico**
+3. Πάτα **Ctrl + s** για να σώσεις το αρχείο, και όταν εμφανιστεί το κατάλληλο παράθυρο διάλεξε αποθήκευσή στο **Raspberry Pi Pico**
 
     ![save options show with This computer and Raspberry Pi Pico show](images/save_to.jpg)
 
-4. Name the file `picozero.py` and then click on the **OK** button.
+4. Άλλαξε το όνομα του αρχείου σε `picozero.py` και στη συνέχεια κάνε κλικ στο κουμπί **OK**.
 
     ![picozero.py typed into the File name field and the OK and Cancel buttons shown](images/save_file.jpg)
 
