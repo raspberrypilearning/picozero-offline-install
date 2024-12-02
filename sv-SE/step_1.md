@@ -1,44 +1,44 @@
-## Installing picozero offline
+## Installerar picozero offline
 
-If you do not have access to the internet on the computer you are connecting to you Raspberry Pi Pico, or you do not have permissions to install packages with Thonny, you can still use the picozero library.
+Om du inte har tillgång till internet på datorn du ansluter till din Raspberry Pi Pico, eller om du inte har behörighet att installera paket med Thonny, kan du fortfarande använda picozero-biblioteket.
 
-You can use another internet connected computer to download the file you need and then store the file on a USB flash memory stick.
+Du kan använda en annan internetansluten dator för att ladda ner filen du behöver och sedan lagra filen på ett USB-minne.
 
-1. Go to the `picozero.py` file in the [picozero GitHub repository](https://raw.githubusercontent.com/RaspberryPiFoundation/picozero/master/picozero/picozero.py?token=GHSAT0AAAAAABRLTKWZCT53CGKBFHMJGE54YSC762A) using a web browser.
+1. Gå till filen `picozero.py` i [picozero GitHub-biblioteket](https://raw.githubusercontent.com/RaspberryPiFoundation/picozero/master/picozero/picozero.py?token=GHSAT0AAAAAABRLTKWZCT53CGKBFHMJGE54YSC762A) med en webbläsare.
 
-2. Right click on the picozero page, and choose to **Save page as**.
+2. Högerklicka på picozero-sidan och välj **Spara sida som**.
 
-3. Choose a download location, and keep the file name the same - `picozero.py`
+3. Välj en nedladdningsplats och behåll filnamnet detsamma - `picozero.py`
 
-### Option 1 - Transfer files using Thonny file manager
+### Alternativ 1 - Överför filer med Thonny filhanterare
 
-1. On the computer connect your Raspberry Pi Pico using a microUSB cable.
+1. På datorn anslut din Raspberry Pi Pico med en microUSB-kabel.
 
-2. Load Thonny from your application menu, then from the **View** menu, choose to see files.
+2. Ladda Thonny från din programmeny, välj sedan från **View** -menyn och välj att se files.
 
-    ![View menu selected and files has been checked](images/view_files.jpg)
+    ![View-menyn vald och files är markerad](images/view_files.jpg)
 
-3. Use the path to navigate to the directory where you saved the `picozero.py` file.
+3. Använd sökvägen för att navigera till katalogen där du sparade filen `picozero.py`.
 
-    ![file path highlighted in the Files tab in Thonny](images/navigate_downloads.jpg)
+    ![filsökväg markerad på fliken Files i Thonny](images/navigate_downloads.jpg)
 
-4. Right click on the `picozero.py` and select **Upload to /** from the menu.
+4. Högerklicka på `picozero.py` och välj **Upload to /** från menyn.
 
-    ![context menu displayed with upload to / selected](images/upload_files.jpg)
+    ![sammanhangsmenyn visas med upload to / vald](images/upload_files.jpg)
 
-5. You should now see a new copy of the `picozero.py` library on the Raspberry Pi Pico.
+5. Du bör nu se en ny kopia av `picozero.py` -biblioteket på Raspberry Pi Pico.
 
-### Option 2 - Copy and paste the file using Thonny
+### Alternativ 2 - Kopiera och klistra in filen med Thonny
 
-1. Select all the text in the `picozero.py` file by pressing **Ctrl + a** on your keyboard, then copy it by pressing **Ctrl + c**.
+1. Markera all text i filen `picozero.py` genom att trycka på **Ctrl + a** på ditt tangentbord, kopiera den sedan genom att trycka på **Ctrl + c**.
 
-2. Open Thonny, click in the **untitled** tab and press **Ctrl + v** to paste the contents of `picozero.py` into the file.
+2. Öppna Thonny, klicka i **untitled**-rutan och tryck **Ctrl + v** för att klistra in innehållet `picozero.py` till filen.
 
-3. Use **Ctrl + s** to save the file, and when prompted choose to save it to **Raspberry Pi Pico**
+3. Använd **Ctrl + s** för att spara filen och välj **Raspberry Pi Pico** när du uppmanas att spara
 
-    ![save options show with This computer and Raspberry Pi Pico show](images/save_to.jpg)
+    ![spara alternativ visas med This computer eller Raspberry Pi Pico](images/save_to.jpg)
 
-4. Name the file `picozero.py` and then click on the **OK** button.
+4. Namnge filen `picozero.py` och klicka sedan på knappen **OK**.
 
-    ![picozero.py typed into the File name field and the OK and Cancel buttons shown](images/save_file.jpg)
+    ![picozero.py skrevs in i fältet Filnamn och knapparna OK och Cancel visas](images/save_file.jpg)
 
