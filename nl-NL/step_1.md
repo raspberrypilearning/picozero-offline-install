@@ -16,15 +16,15 @@ Je kunt een andere computer met internetverbinding gebruiken om het bestand dat 
 
 2. Laad Thonny vanuit het toepassingenmenu en kies vervolgens uit het **View** menu om bestanden te bekijken.
 
-    ![View menu selected and files has been checked](images/view_files.jpg)
+    ![Het menu View is geselecteerd en files is aangevinkt](images/view_files.jpg)
 
-3. Use the path to navigate to the directory where you saved the `picozero.py` file.
+3. Gebruik het pad om te navigeren naar de map waar je het `picozero.py` bestand hebt opgeslagen.
 
-    ![file path highlighted in the Files tab in Thonny](images/navigate_downloads.jpg)
+    ![Bestandspad gemarkeerd op het tabblad Files in Thonny](images/navigate_downloads.jpg)
 
-4. Right click on the `picozero.py` and select **Upload to /** from the menu.
+4. Klik met de rechtermuisknop op de `picozero.py` en selecteer **Upload to /** in het menu.
 
-    ![context menu displayed with upload to / selected](images/upload_files.jpg)
+    ![contextmenu weergegeven met upload to / geselecteerd](images/upload_files.jpg)
 
 5. Je zou nu een nieuwe versie van de `picozero.py` bibliotheek moeten zien op de Raspberry Pi Pico.
 
