@@ -1,11 +1,11 @@
 ---
-title: Εγκατάσταση της βιβλιοθήκης picozero χωρίς σύνδεση στο internet
+title: Εγκατάσταση του picozero εκτός σύνδεσης
 hero_image: images/banner.png
-description: Εγκατάσταση της βιβλιοθήκης picozero αν δε γίνεται μέσω του διαχειριστή πακέτων (package manager) του Thonny.
+description: Εγκατάσταση του picozero εάν δεν μπορείς να το εγκαταστήσεις μέσω του διαχειριστή πακέτων του Thonny.
 version: 4
 listed: false
 copyedit: false
 last_tested: "2022-03-22"
 steps:
   - 
-    title: Εγκατάσταση της βιβλιοθήκης picozero χωρίς σύνδεση στο internet
+    title: Εγκατάσταση του picozero εκτός σύνδεσης
