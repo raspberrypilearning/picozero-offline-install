@@ -1,44 +1,44 @@
-## Εγκατάσταση της βιβλιοθήκης picozero χωρίς σύνδεση στο internet
+## Εγκατάσταση του picozero χωρίς σύνδεση στο internet
 
-Αν στον Υπολογιστή που έχεις συνδέσει το Raspberry Pi Pico δεν έχεις internet ή δεν έχεις δικαίωμα να εγκαταστήσεις βιβλιοθήκες μέσω του Thonny, υπάρχει ακόμα τρόπος να χρησιμοποιήσεις τη βιβλιοθήκη picozero.
+Εάν δεν έχεις πρόσβαση στο διαδίκτυο στον υπολογιστή που έχεις συνδέσει το Raspberry Pi Pico ή δεν έχεις δικαιώματα εγκατάστασης πακέτων με το Thonny, μπορείς να χρησιμοποιήσεις τη βιβλιοθήκη picozero.
 
-Μπορείς να κατεβάσεις το αρχείο από έναν άλλο Υπολογιστή, που έχει internet, και στη συνέχεια να το αποθηκεύσεις σε ένα USB stick.
+Μπορείς να κατεβάσεις το αρχείο από έναν άλλο υπολογιστή που έχει σύνδεση στο internet και στη συνέχεια να το αποθηκεύσεις σε ένα USB stick.
 
-1. Βρες το αρχείο `picozero.py` στο αποθετήριο της βιβλιοθήκης [picozero στο Github](https://raw.githubusercontent.com/RaspberryPiFoundation/picozero/master/picozero/picozero.py?token=GHSAT0AAAAAABRLTKWZCT53CGKBFHMJGE54YSC762A) μέσω ενός broswer.
+1. Πήγαινε στο αρχείο `picozero.py` στο [αποθετήριο picozero στο Github](https://raw.githubusercontent.com/RaspberryPiFoundation/picozero/master/picozero/picozero.py?token=GHSAT0AAAAAABRLTKWZCT53CGKBFHMJGE54YSC762A) μέσω ενός web browser.
 
-2. Κάνε δεξί κλικ στη σελίδα και διάλεξε **Αποθήκευση σελίδας ως (Save page as)**.
+2. Κάνε δεξί κλικ στη σελίδα picozero και επίλεξε **Αποθήκευση σελίδας ως**.
 
-3. Διάλεξε ένα φάκελο αποθήκευσης και αποθήκευσε το αρχείο ως `picozero.py`
+3. Διάλεξε ένα φάκελο λήψης και αποθήκευσε το αρχείο ως `picozero.py`
 
-### Μεταφορά αρχείων μέσω του διαχειριστή αρχείων του Thonny
+### Επιλογή 1 - Μεταφορά αρχείων μέσω του διαχειριστή αρχείων του Thonny
 
-1. Σύνδεσε το Raspberry Pi Pico στον Υπολογιστή σου με ένα καλώδιο microUSB.
+1. Σύνδεσε το Raspberry Pi Pico στον υπολογιστή σου με ένα καλώδιο microUSB.
 
 2. Άνοιξε το Thonny και στη συνέχεια από το menu **View** διάλεξε files.
 
-    ![View menu selected and files has been checked](images/view_files.jpg)
+    ![Επιλέχθηκε το μενού προβολής και τα αρχεία έχουν ελεγχθεί](images/view_files.jpg)
 
-3. Use the path to navigate to the directory where you saved the `picozero.py` file.
+3. Βρες τον φάκελο που αποθήκευσες πριν το αρχείο `picozero.py`.
 
-    ![file path highlighted in the Files tab in Thonny](images/navigate_downloads.jpg)
+    ![υπερτονισμένη διαδρομή αρχείου στην καρτέλα Files στο Thonny](images/navigate_downloads.jpg)
 
-4. Right click on the `picozero.py` and select **Upload to /** from the menu.
+4. Κάνε δεξί κλικ στο `picozero.py` και στη συνέχεια πάτα **Upload to/** από το μενού.
 
-    ![context menu displayed with upload to / selected](images/upload_files.jpg)
+    ![εμφανίζεται το μενού με upload to / επιλεγμένο](images/upload_files.jpg)
 
-5. Θα πρέπει πλέον να φαίνεται ένα νέο αρχείο της βιβλιοθήκης `picozero.py` στο Raspberry Pi Pico.
+5. Θα πρέπει πλέον να φαίνεται ένα νέο αντίγραφο της βιβλιοθήκης `picozero.py` στο Raspberry Pi Pico.
 
-### Αντιγραφή και Επικόλληση του αρχείου μέσω του Thonny
+### Επιλογή 2 - Αντιγραφή και Επικόλληση του αρχείου μέσω του Thonny
 
-1. Επιλέξτε όλο το περιεχόμενο της σελίδας `picozero.py`, πατώντας **Ctrl + a** από το πληκτρολόγιο, και στη συνέχεια πατήστε **Ctrl + c**.
+1. Επίλεξε όλο το κείμενο του αρχείου `picozero.py`, πατώντας **Ctrl + a** από το πληκτρολόγιο, και στη συνέχεια πάτα **Ctrl + c**.
 
 2. Αφού ανοίξεις το Thonny, κάνε κλικ στην καρτέλα **untitled** και πάτα **Ctrl + v** για να κάνεις επικόλληση το περιεχόμενο του `picozero.py` στο νέο αρχείο.
 
-3. Πάτα **Ctrl + s** για να σώσεις το αρχείο, και όταν εμφανιστεί το κατάλληλο παράθυρο διάλεξε αποθήκευσή στο **Raspberry Pi Pico**
+3. Πάτα **Ctrl + s** για να αποθηκεύσεις το αρχείο, και όταν ερωτηθείς, διάλεξε αποθήκευση στο **Raspberry Pi Pico**
 
-    ![save options show with This computer and Raspberry Pi Pico show](images/save_to.jpg)
+    ![επιλογές αποθήκευσης που εμφανίζουν, Αυτός ο υπολογιστής και στο Raspberry Pi Pico](images/save_to.jpg)
 
 4. Άλλαξε το όνομα του αρχείου σε `picozero.py` και στη συνέχεια κάνε κλικ στο κουμπί **OK**.
 
-    ![picozero.py typed into the File name field and the OK and Cancel buttons shown](images/save_file.jpg)
+    ![picozero.py πληκτρολογήθηκε στο πεδίο File name και εμφανίζονται τα κουμπιά ΟΚ και Cancel](images/save_file.jpg)
 
