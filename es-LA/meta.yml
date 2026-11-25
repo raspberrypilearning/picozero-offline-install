@@ -1,0 +1,11 @@
+---
+title: Instalar picozero sin conexión
+hero_image: images/banner.png
+description: Instalar picozero si no puedes hacerlo a través del gestor de paquetes de Thonny.
+version: 4
+listed: false
+copyedit: false
+last_tested: "2022-03-22"
+steps:
+  - 
+    title: Instalar picozero sin conexión
