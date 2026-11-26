@@ -42,4 +42,3 @@ Puedes usar otra computadora con conexión a internet para descargar el archivo 
 
     ![picozero.py escrito en el campo Nombre de archivo y los botones Aceptar y Cancelar visibles](images/save_file.jpg)
 
-

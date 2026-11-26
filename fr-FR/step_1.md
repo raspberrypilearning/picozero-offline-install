@@ -41,3 +41,4 @@ Tu peux utiliser un autre ordinateur connecté à internet pour télécharger le
 4. Nomme le fichier `picozero.py` puis clique sur le bouton **OK**.
 
     ![picozero.py tapé dans le champ Nom de fichier et les boutons OK et Annuler affichés](images/save_file.jpg)
+
