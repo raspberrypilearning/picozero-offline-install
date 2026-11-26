@@ -41,3 +41,4 @@ Je kunt een andere computer met internetverbinding gebruiken om het bestand dat 
 4. Geef het bestand de naam `picozero.py` en klik vervolgens op de knop **OK**.
 
     ![picozero.py getypt in het veld Filename en de knoppen OK en Cancel worden weergegeven](images/save_file.jpg)
+
